@@ -1,6 +1,6 @@
 from aiogram.utils import executor
 from config import dp, bot, ADMINS
-from handlers import client, callback, extra, admin, fsm_admin_mentor
+from handlers import client, callback, extra, admin, fsm_admin_mentor, schedule
 import logging
 from database.bot_db import sql_create
 
